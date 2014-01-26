@@ -16,5 +16,6 @@ public class Test {
 		Link link = new Link(url);
 		crawler.setRoot(link);
 		crawler.run();
+		System.out.println("a");
 	}
 }
